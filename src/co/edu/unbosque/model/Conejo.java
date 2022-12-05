@@ -3,13 +3,11 @@ package co.edu.unbosque.model;
 public class Conejo {
 	
 	int posx, posy, contador;
-	String movimiento;
 	
-	public Conejo(int posx, int posy, int contador, String movimiento) {
+	public Conejo(int posx, int posy, int contador) {
 		this.posx = posx;
 		this.posy = posy;
 		this.contador = contador;
-		this.movimiento = movimiento;
 	}
 
 	public int getPosx() {
@@ -34,14 +32,6 @@ public class Conejo {
 
 	public void setContador(int contador) {
 		this.contador = contador;
-	}
-
-	public String getMovimiento() {
-		return movimiento;
-	}
-
-	public void setMovimiento(String movimiento) {
-		this.movimiento = movimiento;
 	}
 	
 }
