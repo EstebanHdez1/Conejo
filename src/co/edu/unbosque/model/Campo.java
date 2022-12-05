@@ -46,6 +46,7 @@ public class Campo {
 			System.exit(0);
 			return;
 		}
+		
 		double dis = distan(x, y, llegadai, llegadaj);
 		System.out.println("Dis: "+dis);
 		

@@ -5,7 +5,6 @@ import co.edu.unbosque.model.Campo;
 public class Controller {
 	
 	Campo cam;
-	
 	public Controller() {
 		//Posición Conejo
 		int x = 1;
