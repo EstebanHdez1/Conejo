@@ -1,2 +1,2 @@
 # AlgoritmosCapos
-El que se copie que es gei
+This repository implements a branch and bound algorithm to solve a pathfinding problem for a rabbit navigating a grid-based field. The goal is to guide the rabbit from its starting position (n, m) to a target destination (x, y) using adjustable jump lengths, which determine how many cells the rabbit can traverse in a single move. The project follows the Model-View-Controller (MVC) architectural pattern for clean, modular, and scalable code design.
